@@ -7,11 +7,13 @@ public abstract class Produto {
 	private int categoria;
 	private float preco;
 	
+	
 	public Produto(int id, String nome, int categoria, float preco) {
 		this.id = id;
 		this.nome = nome;
 		this.categoria = categoria;
 		this.preco = preco;
+		
 	}
 
 	public int getId() {

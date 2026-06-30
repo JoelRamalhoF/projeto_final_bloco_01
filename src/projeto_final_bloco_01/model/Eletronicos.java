@@ -2,7 +2,7 @@ package projeto_final_bloco_01.model;
 
 public class Eletronicos extends Produto {
 	private String game;
-	public Eletronicos(int id, String nome, int categoria, float preco) {
+	public Eletronicos(int id, String nome, int categoria, float preco, String game) {
 		super(id, nome, categoria, preco);
 		this.game = game;
 	}
